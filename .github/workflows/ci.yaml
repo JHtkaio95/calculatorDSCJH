@@ -20,7 +20,7 @@ jobs:
       - name: Se configura JDK 24 (Temurin)
         uses: action/setup-java@v5
         with:
-          distribution: Temurin
+          distribution: temurin
           java-version: "24"
           check-latest: true
           cache: gradle
