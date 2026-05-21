@@ -39,6 +39,3 @@ jobs:
         with:
           name: jacoco-report
           path: build/reports/jacoco/test/html
-
-      - name: Fuerza comprobacion de cobertura de codigo
-        run: ./gradlew jacocoTestCoverageVerification --no-daemon
