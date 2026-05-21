@@ -39,3 +39,6 @@ jobs:
         with:
           name: jacoco-report
           path: build/reports/jacoco/test/html
+
+      - name: Analisis estatico de codigo
+        run: ./gradlew checkstyleMain --no-daemon
